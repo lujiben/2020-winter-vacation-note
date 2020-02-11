@@ -1,0 +1,12 @@
+@media (min-width: 111) {
+  .div1 {
+    width: 10px;
+    height: 100px;
+  }
+}
+@media (min-width: 222) {
+  .div1 {
+    width: 20px;
+    height: 200px;
+  }
+}
