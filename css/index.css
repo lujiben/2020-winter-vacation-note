@@ -1,11 +1,56 @@
-.row .red {
-  background-color: red;
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  margin:0;
+  padding:0;
+  border:0
 }
-.row .blue {
-  background-color: blue;
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  display:block
 }
-@media (min-width: 768px) and (max-width: 1200px) {
-  .row {
-    color: white;
-  }
+body {
+  line-height:1;
+}
+ol,ul {
+  list-style:none
+}
+a:hover {
+  text-decoration: none;
+}
+/* css reset */
+/* nav start */
+.nav {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  opacity: 0.6;
+}
+.nav a {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  padding: 60px 0;
+}
+.nav a:hover {
+  color: aqua;
+}
+.back-home a.home-a {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  position: relative;
+  left: -50px;
+  top: -50px;
+  margin-left: 50%;
+  margin-top: 50%;
+  background-image: url(../images/avatar.jpg);
+  text-indent: -999px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+/* nav end */
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/home-bg.jpg');
+  background-size: cover;
 }

@@ -55,3 +55,15 @@
     </div>
   </div>
 ```
+#### 图片居中（以水平居中为例）
+  - 1.设置position: relative以及margin-left: 50%，这个左边距是父容器宽度的一半，此时图片不再紧贴父容器的左侧，而是再中间。然后设置left，值为自己宽度的一半，并取负值，此时图片向左移动自己宽度的一半。代码如下
+  ``` css
+  .back-home a.home-a {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    /* 注意，这个元素的宽度是100px */
+    left: -50px;
+    margin-left: 50%;
+  }
+  ```
