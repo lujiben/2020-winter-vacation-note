@@ -67,3 +67,15 @@
     margin-left: 50%;
   }
   ```
+## 第三天
+#### vscode快捷键
+  - ctrl+P 打开文件
+  - ctrl+F 局部搜索，在当前文件搜索
+  - ctrl+shift+F 全局搜索，在所有文件搜索
+  - ctrl+G 跳转到指定行
+  - ctrl+B 打开侧边栏/
+  
+#### 使用谷歌浏览器查看伪类
+ - 1.检查元素，并选中该元素
+ - 2.element-styles-:hov（toggle element state，切换元素状态）
+ - 3.勾选对应状态，例如hover，即可查看对应状态下的代码
