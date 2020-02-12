@@ -79,3 +79,30 @@
  - 1.检查元素，并选中该元素
  - 2.element-styles-:hov（toggle element state，切换元素状态）
  - 3.勾选对应状态，例如hover，即可查看对应状态下的代码
+
+ #### JQ
+  - 1.固定格式
+  ``` js
+  $(document).ready(function() {
+    // 你的代码
+  })
+  // 等价于下面的写法：
+  $(function () {
+    // 你的代码
+  })
+  // 这是第一种写法的简写形式，表示在文档（document）加载完成（ready）后，再加载并执行
+  ```
+  - 2.jq中的选择器
+   > jq的核心是css选择器！
+
+  格式：$('.class'),$('#id'),$('div')等，注意，如果选择器是变量，就不能带上引号，例如:
+  ``` js
+  var el = '.element';
+  $(el).show();
+  ```
+  - 3.jq中的事件处理
+
+  格式：$(选择器).事件名称(处理方式)，例如：
+  $(el).click(function() {
+    alert('我被点击了')
+  })
