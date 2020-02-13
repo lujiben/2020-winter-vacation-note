@@ -13,11 +13,11 @@
     <nav class="nav">
       <div class="container">
         <div class="row">
-          <div class="col-md-2"><a href="#about" class="about">关于</a></div>
-          <div class="col-md-2"><a href="#works" class="works">作品</a></div>
-          <div class="col-md-4 back-home"><a href="#home" class="home-a"></a></div>
-          <div class="col-md-2"><a href="#skill" class="skill">能力</a></div>
-          <div class="col-md-2"><a href="#contact" class="contact">联系</a></div>
+          <div class="col-md-2"><a href="#about" data-index="1" class="about">关于</a></div>
+          <div class="col-md-2"><a href="#works" data-index="2" class="works">作品</a></div>
+          <div class="col-md-4 back-home"><a href="#home" data-index="0" class="home-a"></a></div>
+          <div class="col-md-2"><a href="#skill" data-index="3" class="skill">能力</a></div>
+          <div class="col-md-2"><a href="#contact" data-index="4" class="contact">联系</a></div>
         </div>
       </div>
     </nav>
@@ -30,7 +30,34 @@
     </div>
     <a class="scroll-tip"></a>
   </div>
-  <div class="wrap" id="about">about</div>
+  <div class="wrap about" id="about">
+    <div class="about-section">
+      <div class="line1">
+        <span class="left-span">
+          <img src="./images/bio-icon-1.png" alt="">
+        </span>
+        <span class="right-span">
+          <img src="./images/bio-text-1.png" alt="">
+        </span>
+      </div>
+      <div class="line2">
+        <span class="left-span">
+          <img src="./images/bio-icon-2.png" alt="">
+        </span>
+        <span class="right-span">
+          <img src="./images/bio-text-2.png" alt="">
+        </span>
+      </div>
+      <div class="line3">
+        <span class="left-span">
+          <img src="./images/bio-icon-3.png" alt="">
+        </span>
+        <span class="right-span">
+          <img src="./images/bio-text-3.png" alt="">
+        </span>
+      </div>
+    </div>
+  </div>
   <div class="wrap" id="works">works</div>
   <div class="wrap" id="skill">skill</div>
   <div class="wrap" id="contact">contact</div>

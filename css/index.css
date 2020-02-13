@@ -60,6 +60,10 @@ a:hover {
   border-radius: 50%;
   border: 4px solid #fff;
 }
+a:focus,
+a:hover {
+  text-decoration: none;
+}
 /* nav end */
 .home {
   width: 100%;
@@ -114,3 +118,16 @@ a:hover {
   -ms-transform: scale(1);
   transform: scale(1);
 }
+/* home end */
+.wrap.about {
+  background-image: url('../images/bg-tile.png');
+}
+.about-section {
+  width: 960px;
+  position: relative;
+  top: 185px;
+}
+.about-section .left-span {
+  margin-left: 350px;
+}
+
