@@ -115,3 +115,9 @@
   <p class="p1" today="20200213">2020年2月13日</p>
   ```
   JS: $('.p1').attr('today')
+
+  ## 第五天
+  #### JQ相关
+  > jq中提供了对指定元素增加、删除、切换class的方法，例如：$(el).addClass(className)/$(el).removeClass(className)/$(el).toggleClass(className),其中toggle意为切换。
+  #### 过渡效果transition
+  > 过渡效果需要出发，动画不需要触发就会自己执行，这是他们的一个区别。触发过渡效果最常见的是hover，这个项目中展示了另一种思路：增加class

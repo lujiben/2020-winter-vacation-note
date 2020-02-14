@@ -22,4 +22,8 @@ $(function () {
     return false;
   })
 
+  $('.scroll-tip').click(function () {
+    $('.skill-section .fade').addClass('fade-in');
+  })
+
 })
