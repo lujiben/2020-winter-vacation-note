@@ -417,7 +417,7 @@ a:hover {
   font-size: 18px;
   line-height: 2;
 }
-.fade {
+.skill-section .fade {
   opacity: 0;
   position: relative;
   left: 10px;
@@ -457,5 +457,86 @@ a:hover {
   opacity: 1;
   left: 0;
 }
-
+/* skill end */
+#contact {
+  background: #c0392b;
+  color: #fff ;
+}
+#contact h2 {
+  color: #fff ;
+}
+.contact-section {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  top: 173px
+}
+.contact-section h1{
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+.contact-section .left {
+  float: left;
+  width: 40%;
+}
+.contact-section .right {
+  float: right;
+  width: 50%;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.contact-section h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.contact-section li {
+  line-height: 1.8;
+  color: #dadada;
+}
+.contact-section .contact-info {
+  margin-top: 20px;
+}
+.contact-section .fade {
+  opacity: 1;
+  position: relative;
+  left: 10px;
+}
+.contact-section p {
+  padding: 0 0 20px;
+  line-height: 1.4;
+  color: #dadada;
+}
+#contact .scroll-tip {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url('../images/arrow.png');
+  background-position: -60px 0;
+  position: absolute;
+  left: -24px;
+  bottom: 40px;
+  margin-left: 50%;
+  cursor: pointer;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+#contact .scroll-tip:hover {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
 
