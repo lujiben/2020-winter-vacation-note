@@ -37,8 +37,20 @@ a:hover {
   transition: all 0.6s ease-in;
 }
 .fixed.nav {
+  height: 80px;
   background-color: #000;
   position: fixed;
+  top: 0;
+  opacity: 1;
+}
+.fixed.nav a{
+  padding: 20px 0;
+  font-size: 24px;
+}
+.fixed .nav-item {
+  margin-top: 8px;
+}
+.fixed .back-home a.home-a {
   top: 0;
 }
 .nav .about:hover {
