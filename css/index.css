@@ -94,16 +94,16 @@ a:hover {
   height: 100vh;
   position: relative;
 }
-.content-section {
+.home-section {
   position: relative;
   top: 220px;
 }
-.content-section p {
+.home-section p {
   color: #fff;
   font-size: 30px;
   text-align: center;
 }
-.content-section p.welcome {
+.home-section p.welcome {
   margin: 60px 0;
 }
 .home .scroll-tip {

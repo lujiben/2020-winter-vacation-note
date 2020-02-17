@@ -2,6 +2,8 @@ $(function () {
   
   // 全局变量，表示当前模块，每次页面滚动时都要更新这个值
   var viewIndex = 0;
+  // 存储各个模块的名字
+  var viewName = ['home-section', 'about-section', 'works-section', 'skill-section', 'contact-section'];
 
   // 点击导航栏的处理
   $('.nav a').click(function(e) {
@@ -69,6 +71,11 @@ $(function () {
     }
   }
 
+  // 各部分的过渡效果，通过fade-in这个class来触发
+  function toggleFadeIn () {
+    // code here
+  }
+
   // 处理页面滚动
   window.onscroll = throttleFn(function () {
 
@@ -100,9 +107,12 @@ $(function () {
     if(isScrollDown) {
       fixed = true;
       viewIndex < 4 ? ++ viewIndex : '';
+      // 向下滚动时需要增加fade-in这个class，触发过渡效果
+      $('.' + viewName[viewIndex]).find('.fade').addClass('fade-in');
+      // todo 把fade-in的增删抽象出来，有几个地方反复用到了
     } else {
       viewIndex > 0 ? -- viewIndex : '';
-      if (viewIndex > 1) {
+      if (viewIndex > 0) {
         fixed = true;
       }else {
         fixed = false;
